@@ -48,7 +48,11 @@
 
     &:hover {
         background-color: $color-primary-dark;
-        transform: translateY(-2px);
+    }
+    
+    &:active {
+        outline: none;
+        transform: scale(.98);
     }
 }
 
